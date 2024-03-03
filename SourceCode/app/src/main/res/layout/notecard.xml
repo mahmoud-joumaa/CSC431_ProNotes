@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/general_padding">
+
+    <RadioGroup
+        android:id="@+id/priorityGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="25dp">
+
+        <RadioButton
+            android:id="@+id/note_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high_priority" />
+
+        <RadioButton
+            android:id="@+id/note_mid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/mid_priority" />
+
+        <RadioButton
+            android:id="@+id/note_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low_priority" />
+    </RadioGroup>
+
+    <EditText
+        android:hint="@string/title"
+        android:id="@+id/note_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priorityGroup" />
+
+    <TextView
+        android:id="@+id/note_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/note_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toEndOf="@+id/note_title"
+        app:layout_constraintTop_toTopOf="@+id/note_title" />
+
+    <TextView
+        android:id="@+id/note_edited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/note_created"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toEndOf="@+id/note_created"
+        app:layout_constraintTop_toTopOf="@+id/note_created" />
+
+    <EditText
+        android:hint="@string/description"
+        android:id="@+id/note_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_title"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_favorite"
+        android:layout_width="@dimen/note_icon"
+        android:layout_height="@dimen/note_icon"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/note_star"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/note_desc" />
+
+    <ImageButton
+        android:id="@+id/btn_alarm"
+        android:layout_width="@dimen/note_icon"
+        android:layout_height="@dimen/note_icon"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/alarm"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_favorite"
+        app:layout_constraintStart_toEndOf="@+id/btn_favorite"
+        app:layout_constraintTop_toTopOf="@+id/btn_favorite" />
+
+    <ImageButton
+        android:id="@+id/btn_archive"
+        android:layout_width="@dimen/note_icon"
+        android:layout_height="@dimen/note_icon"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/archive"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_alarm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_alarm" />
+
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="@dimen/note_icon"
+        android:layout_height="@dimen/note_icon"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/delete"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_archive"
+        app:layout_constraintEnd_toStartOf="@id/btn_archive"
+        app:layout_constraintTop_toTopOf="@+id/btn_archive" />
+
+    <ImageButton
+        android:id="@+id/btn_share"
+        android:layout_width="@dimen/note_icon"
+        android:layout_height="@dimen/note_icon"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/share"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_alarm"
+        app:layout_constraintStart_toEndOf="@+id/btn_alarm"
+        app:layout_constraintTop_toTopOf="@+id/btn_alarm"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

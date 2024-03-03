@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProNotes</string>
+
+    <!-- Nav Drawer Strings -->
+    <string name="nav_home">بيت</string>
+    <string name="nav_all">جميع الملاحظات</string>
+    <string name="nav_archive">أرشيف</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_about">معلومات عنا</string>
+    <string name="nav_settings">إعدادات</string>
+    <string name="nav_logout">تسجيل خروج</string>
+
+    <string name="nav_open">افتح التنقل</string>
+    <string name="nav_close">إغلاق التنقل</string>
+
+    <!-- Supported Languages -->
+    <string-array name="languages">
+        <item>English</item>
+        <item>Francais</item>
+        <item>عربي</item>
+    </string-array>
+
+    <!-- Extracted Strings -->
+    <string name="app_logo">ProNotes Logo</string>
+    <string name="name">اسم</string>
+    <string name="enter_name_here">أدخل الاسم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="enter_password_here">أدخل كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_as_guest_instead">تسجيل الدخول كضيف</string>
+    <string name="invalid_credentials">بيانات الاعتماد غير صالحة</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="languages_icon">أيقونة اللغات</string>
+    <string name="light_mode">وضع الضوء</string>
+    <string name="dark_mode">الوضع المظلم</string>
+    <string name="guest">ضيف</string>
+    <string name="welcome">مرحباً</string>
+    <string name="welcome_back">مرحبًا بعودتك</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="username_already_exists">اسم المستخدم موجود بالفعل</string>
+    <string name="your_password_should_be_at_least_8_characters_long">يجب أن تتكون كلمة المرور الخاصة بك من 8 أحرف على الأقل</string>
+    <string name="high_priority">عالي</string>
+    <string name="mid_priority">واسطة</string>
+    <string name="low_priority">قليل</string>
+    <string name="add_a_note">أضف ملاحظة</string>
+    <string name="description">وصف</string>
+    <string name="title">عنوان</string>
+    <string name="about_the_app">حول التطبيق</string>
+    <string name="about_the_app_description">ProNotes هو تطبيق بسيط لتدوين الملاحظات لمساعدتك في إدارة ملاحظاتك بسرعة وسهولة باستخدام هاتفك المحمول. تم الانتهاء من هذا المشروع كجزء من متطلبات دورة CSC431 (تطبيقات الهاتف المحمول).</string>
+    <string name="about_the_developer">حول المطور</string>
+    <string name="about_the_developer_description">محمود جمعة هو طالب جامعي في الجامعة اللبنانية الأميركية في وقت كتابة هذا الموجز. إنه لا يزال جديدًا في عالم تطوير الأجهزة المحمولة في وقت العمل على هذا التطبيق.</string>
+
+    <string name="send_to">الرجاء اختيار التطبيق من الخيارات أدناه</string>
+    <string name="sign_up_successful">الاشتراك بنجاح</string>
+
+</resources>

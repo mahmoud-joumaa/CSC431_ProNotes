@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProNotes</string>
+
+    <!-- Nav Drawer Strings -->
+    <string name="nav_home">Maison</string>
+    <string name="nav_all">Toutes les notes</string>
+    <string name="nav_archive">Archive</string>
+    <string name="nav_favorites">Favoris</string>
+    <string name="nav_about">À propos de nous</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_logout">Se déconnecter</string>
+
+    <string name="nav_open">Ouvrir la navigation</string>
+    <string name="nav_close">Fermer la navigation</string>
+
+    <!-- Supported Languages -->
+    <string-array name="languages">
+        <item>English</item>
+        <item>Francais</item>
+        <item>عربي</item>
+    </string-array>
+
+    <!-- Extracted Strings -->
+    <string name="app_logo">Logo ProNotes</string>
+    <string name="name">Nom</string>
+    <string name="enter_name_here">Entrez le nom</string>
+    <string name="password">Mot de passe</string>
+    <string name="enter_password_here">Entrer le mot de passe</string>
+    <string name="login">Se connecter</string>
+    <string name="login_as_guest_instead">Connectez-vous en tant qu\'invité</string>
+    <string name="invalid_credentials">Les informations d\'identification invalides</string>
+    <string name="retry">Recommencez</string>
+    <string name="languages_icon">Icône des langues</string>
+    <string name="light_mode">Mode lumière</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="guest">invité</string>
+    <string name="welcome">Bienvenu</string>
+    <string name="welcome_back">Content de te revoir</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="username_already_exists">Ce nom d\'utilisateur existe déjà</string>
+    <string name="your_password_should_be_at_least_8_characters_long">Votre mot de passe doit comporter au moins 8 caractères</string>
+    <string name="high_priority">Haut</string>
+    <string name="mid_priority">Moyen</string>
+    <string name="low_priority">Faible</string>
+    <string name="add_a_note">Ajouter une note</string>
+    <string name="description">Description</string>
+    <string name="title">Titre</string>
+    <string name="about_the_app">À propos de l\'application</string>
+    <string name="about_the_app_description">ProNotes est une application simple de prise de notes pour vous aider à gérer vos notes à la volée avec la facilité de votre mobile. Ce projet a été réalisé dans le cadre des exigences du cours CSC431 (Applications mobiles).</string>
+    <string name="about_the_developer">À propos du développeur</string>
+    <string name="about_the_developer_description">Mahmoud Joumaa est étudiant de premier cycle à l\'Université libanaise américaine au moment de la rédaction de ce briefing. Il est encore nouveau dans le monde du développement mobile au moment où il travaille sur cette application.</string>
+
+    <string name="send_to">Veuillez choisir une application parmi les options ci-dessous</string>
+    <string name="sign_up_successful">Inscription réussie</string>
+
+</resources>
